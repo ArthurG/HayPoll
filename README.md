@@ -2,7 +2,7 @@
 because hay > straw
 
 ## Setup Instructions
-This is a facebook bot that can help you to create surveys, which others can respond through the bot.
+This is a facebook bot that can help you to create surveys, which others can respond through the bot. [This](https://developers.facebook.com/docs/messenger-platform/guides/quick-start) is a similar guide written by facebook for NodeJS apps 
 
 Installing requirements:
 `pip3 install -r requirements.txt`
@@ -28,4 +28,6 @@ Try messaging your bot "hi", it should respond back with the same thing. Now you
 - `spam_enemies question_id` -> Allow you to send a message of your choice to people who answered a certain response for question_id
 - `anon xyz vote question_id` similar to `vote`, but your facebook id will be set to xyz. So `lynch` and `spam_enemies` commands will not work on you :) 
 
-## Submit pull requests pls 
+## FAQ
+- Just a friendly reminder unapproved facebook applications will only work on your own accounts, and maybe a few manually approved users (aka testers). You will need facebook's approval if you want to make the application more useful than that
+- Submit pull requests pls, I'll approve anything reasonable
